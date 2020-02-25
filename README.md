@@ -14,8 +14,16 @@ significant pain.
  * __--infile string__    _filename to process_
  * __--outfile string__   _Output JSON file_
  * __--type string__      _Name of record type conversion (default "record")_
- * __--verbose__          _Lots of information (default true)_
+ * __--verbose__          _Lots of information (_default true_)_
  
 `odf2json --infile zodmo.xlxs --outfile zodmo.json`
  
+ ## Notes
+ 
  Log data is written to `odf2json.log`
+ 
+ ### TODO
+ * Add ODS support (open to suggestion)
+    * Either autodetect XLXS/ODS format, or add flag
+ * Make logfile dynamic rather than hard-coded
+ * Better flag handling.
